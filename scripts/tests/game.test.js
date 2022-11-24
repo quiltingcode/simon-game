@@ -72,5 +72,5 @@
         let button = document.getElementById(game.currentGame[0]);
         lightsOn(game.currentGame[0]);
         expect(button.classList).toContain("light");
-    })
+    });
  });
